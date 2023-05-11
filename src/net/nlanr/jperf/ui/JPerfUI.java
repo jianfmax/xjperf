@@ -1611,6 +1611,8 @@ public class JPerfUI extends JFrame
 		// clear it first
 		options = iperfCommand;
 
+		options += " --forceflush";
+
 		// determine if its a client or server
 		if (serverModeRadioButton.isSelected())
 		{

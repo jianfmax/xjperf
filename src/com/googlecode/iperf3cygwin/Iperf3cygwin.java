@@ -47,7 +47,7 @@ import net.nlanr.jperf.ui.JPerfUI;
 
 public class Iperf3cygwin extends JPerf
 {
-	public static final String IPERF3CYGWIN_VERSION = "3.0b4-03";
+	public static final String IPERF3CYGWIN_VERSION = "3.13";
 	public static final String IPERF3CYGWIN_URL = "http://code.google.com/p/iperf3-cygwin-gui/";
 	
 	public static void main(String[] args)
